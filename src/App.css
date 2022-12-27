@@ -1,0 +1,45 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.Modes{
+  /* margin-top: -100px; */
+  height: 50px;
+  width: 400px;
+  padding: 0.75rem;
+  background-color: #161932;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* gap: 3rem; */
+  border-radius: 20px;
+}
+.Modes div{
+  height: 95%;
+  width: calc(100%/3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+.Modes div:hover{
+  color: white;
+  cursor: pointer;
+}
+.mode-on-click{
+  color: white;
+  border-radius: 20px;
+  background-color: rgb(227, 97, 97);
+  transition: ease 500ms;
+}
+
