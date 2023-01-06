@@ -3,6 +3,7 @@ import "./App.css";
 import GlobalContext from "./Context";
 import Modes from "./components/Modes";
 import Timer from "./components/Timer";
+import Settings from "./components/Settings";
 function App() {
   const [mode, setMode] = useState("pomodoro");
   const [pomodoroTime, setPomodoroTime]=useState(30)
@@ -18,7 +19,7 @@ function App() {
         <h1 style={{ color: "white" }}>pomodoro</h1>
         <Modes />
         <Timer/>
-        <h2>settings</h2>
+        <Settings/>
       </div>
     </GlobalContext.Provider>
   );
