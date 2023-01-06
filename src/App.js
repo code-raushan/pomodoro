@@ -4,8 +4,12 @@ import GlobalContext from "./Context";
 import Modes from "./components/Modes";
 function App() {
   const [mode, setMode] = useState("pomodoro");
+  const [pomodoroTime, setPomodoroTime]=useState(30)
+  const [shortBreakTime, setShortBreakTime]=useState(5)
+  const [longBreakTime, setLongBreakTime]=useState(15)
+
   return (
-    <GlobalContext.Provider value={{mode, setMode}}>
+    <GlobalContext.Provider value={{mode, setMode, pomodoroTime, setPomodoroTime, shortBreakTime, setShortBreakTime, longBreakTime, setLongBreakTime}}>
       <div className="App">
         <h1 style={{ color: "white" }}>pomodoro</h1>
         <Modes />
