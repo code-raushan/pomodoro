@@ -1,7 +1,7 @@
 import React, {useContext} from 'react'
 import GlobalContext from '../Context'
 const Modes = () => {
-    const {mode, setMode, secondsRemaining, setSecondsRemaining, pomodoroTime, shortBreakTime, longBreakTime, setClockStatus, setAction}=useContext(GlobalContext)
+    const {mode, setMode, setSecondsRemaining, pomodoroTime, shortBreakTime, longBreakTime, setClockStatus, setAction}=useContext(GlobalContext)
 
     const changeModeAndTimer = (mode)=>{
       setMode(mode);
