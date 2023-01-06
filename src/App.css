@@ -42,30 +42,6 @@
   background-color: rgb(227, 97, 97);
   transition: ease 500ms;
 }
-/* .timer{
-  font-size: 3rem;
-}
-
-.timer-btn{
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-  background-color: transparent;
-  border: none;
-  font-size: 2rem;
-  color: rgb(222, 68, 68);
-}
-.timer-btn:hover{
-  background:  #161932;
-  cursor: pointer;
-}
-.timer-btn-reset{
-  padding: 0.5rem 1rem;
-  border-radius: 15px;
-  background-color: transparent;
-  border: none;
-  font-size: 1.5rem;
-  color: rgb(222, 68, 68);
-} */
 .timer{
   font-size: 3rem;
 }
