@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import GlobalContext from "./Context";
 import Modes from "./components/Modes";
+import Timer from "./components/Timer";
 function App() {
   const [mode, setMode] = useState("pomodoro");
   const [pomodoroTime, setPomodoroTime]=useState(30)
@@ -16,7 +17,7 @@ function App() {
       <div className="App">
         <h1 style={{ color: "white" }}>pomodoro</h1>
         <Modes />
-        <h2>timer</h2>
+        <Timer/>
         <h2>settings</h2>
       </div>
     </GlobalContext.Provider>
