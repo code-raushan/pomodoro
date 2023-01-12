@@ -4,6 +4,7 @@ import GlobalContext from "./Context";
 import Modes from "./components/Modes";
 import Timer from "./components/Timer";
 import Settings from "./components/Settings";
+import Modal from "./components/Modal";
 function App() {
   const [mode, setMode] = useState("pomodoro");
   const [pomodoroTime, setPomodoroTime]=useState(30)
@@ -20,6 +21,7 @@ function App() {
         <Modes />
         <Timer/>
         <Settings/>
+        <Modal/>
       </div>
     </GlobalContext.Provider>
   );
